@@ -19,7 +19,7 @@ const userSchema = new Schema<IUser>(
      type: String,
      required: true,
      unique: true,
-     match: [/.+@.+\..+/, 'Must match an email address!'],
+     match: [/.+@.+\..+/, 'Error! Must match an email address!'],
    },
    thoughts: [
      {
