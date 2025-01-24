@@ -11,15 +11,15 @@ const userSchema = new Schema<IUser>(
  {
    username: {
      type: String,
-     required: true,
      unique: true,
+     required: true,
      trim: true,
    },
    email: {
      type: String,
-     required: true,
      unique: true,
-     match: [/.+@.+\..+/, 'Error! Must match an email address!'],
+     required: true,
+     match: [/.+@.+\..+/, 'Must match an email address!'],
    },
    thoughts: [
      {
