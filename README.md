@@ -66,6 +66,12 @@ Be sure to have MongoDB installed on your machine. Follow the [MongoDB installat
 
 Use the following guidelines to set up your models and API routes:
 
+## 💡 Hints
+
+* Be sure to run `npm run seed` to seed your database before testing with Insomnia.
+
+* Run `npm run start` to build and start the server.
+
 ### Models
 
 **User**:
